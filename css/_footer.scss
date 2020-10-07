@@ -1,0 +1,78 @@
+@import 'reset';
+$footer-color:#AA0601;
+$font-36: 36px;
+$font-16: 16px;
+$color-white:#fff;
+@mixin space-between{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: $footer-color;
+    max-width: 100%;
+    color: $color-white;
+    .footer_outside{
+        width: 1080px;
+        margin: 0 auto;
+        .menu_icon{
+            @include space-between;
+            .menu{
+                @include space-between;
+                li{
+                    margin-top: 48px;
+                    margin-bottom: 37px;
+                }
+                a{
+                    font-size: $font-16;
+                    color: $color-white;
+                    text-decoration: none;
+                    margin-right: 48px;
+                }
+            }
+            .icon{
+                margin-top: 36px;
+                :nth-child(2){
+                    padding: 0px 32px;
+                }
+            }
+        }
+        .phone,.email{
+           display: flex;
+           align-items: center;
+           margin-bottom: 22px;
+           img{
+               margin-right: 12px;
+           }
+           p{
+               font-size: $font-36;
+           } 
+        }
+        .line{
+            width: 1080px;
+            border: 1px solid white;
+            margin-bottom: 24px;
+        }
+        .copyright{
+            @include space-between;
+            padding-bottom: 28px;
+            .copy{
+                @include center;
+                img{
+                    margin-right: 38px;
+                }
+            }
+            .term{
+                @include center();
+                li:nth-child(1){
+                    padding-right: 62px;
+                }
+            }
+        }
+    }
+}   
