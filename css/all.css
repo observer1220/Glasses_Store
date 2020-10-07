@@ -43,13 +43,61 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.container {
+  background: #aa0601;
+}
+
+.container .row .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 108px;
+}
+
+.container .row .header .headerLogo {
+  margin-top: 30px;
+  margin-left: 88px;
+}
+
+.container .row .header .headerLogo a img {
+  width: 80px;
+  height: 48.57px;
+}
+
+.container .row .header .headerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.container .row .header .headerMenu a {
+  width: 80px;
+  height: 28px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.container .row .header .headerMenu a li {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.container .row .header .headerMenu a:hover {
+  background: pink;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -97,7 +145,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -111,68 +159,113 @@ table {
   max-width: 100%;
   color: #fff;
 }
+
 .footer .footer_outside {
   width: 1080px;
   margin: 0 auto;
 }
+
 .footer .footer_outside .menu_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .footer .footer_outside .menu_icon .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .footer .footer_outside .menu_icon .menu li {
   margin-top: 48px;
   margin-bottom: 37px;
 }
+
 .footer .footer_outside .menu_icon .menu a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
   margin-right: 48px;
 }
+
 .footer .footer_outside .menu_icon .icon {
   margin-top: 36px;
 }
+
 .footer .footer_outside .menu_icon .icon :nth-child(2) {
   padding: 0px 32px;
 }
+
 .footer .footer_outside .phone, .footer .footer_outside .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 22px;
 }
+
 .footer .footer_outside .phone img, .footer .footer_outside .email img {
   margin-right: 12px;
 }
+
 .footer .footer_outside .phone p, .footer .footer_outside .email p {
   font-size: 36px;
 }
+
 .footer .footer_outside .line {
   width: 1080px;
   border: 1px solid white;
   margin-bottom: 24px;
 }
+
 .footer .footer_outside .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 28px;
 }
+
 .footer .footer_outside .copyright .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .footer .footer_outside .copyright .copy img {
   margin-right: 38px;
 }
+
 .footer .footer_outside .copyright .term {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .footer .footer_outside .copyright .term li:nth-child(1) {
   padding-right: 62px;
 }
+/*# sourceMappingURL=all.css.map */

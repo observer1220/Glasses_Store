@@ -1,0 +1,38 @@
+.container {
+    background: #aa0601;
+    .row {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            height: 108px;
+            .headerLogo {
+                margin-top: 30px;
+                margin-left: 88px;
+                a {
+                    img {
+                        width: 80px;
+                        height: 48.57px;
+                    }
+                }
+            }
+            .headerMenu {
+                display: flex;
+                margin-top: 40px;
+                a {
+                    width: 80px;
+                    height: 28px;
+                    margin-right: 40px;
+                    text-decoration: none;
+                    li {
+                        text-align:center;
+                        color: #ffffff;
+                        font-size: 20px;
+                    }
+                    &:hover {
+                        background: pink;
+                    }
+                }
+            }
+        }
+    }
+}
