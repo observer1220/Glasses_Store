@@ -43,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -55,103 +55,86 @@ table {
 .container {
   background: #aa0601;
 }
-
 .container .row .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 108px;
 }
-
 .container .row .header .headerLogo {
   margin-top: 30px;
   margin-left: 88px;
 }
-
 .container .row .header .headerLogo a img {
   width: 80px;
   height: 48.57px;
 }
-
 .container .row .header .headerMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
 }
-
 .container .row .header .headerMenu a {
   width: 80px;
   height: 28px;
   margin-right: 40px;
   text-decoration: none;
 }
-
 .container .row .header .headerMenu a li {
   text-align: center;
   color: #ffffff;
   font-size: 20px;
 }
-
 .container .row .header .headerMenu a:hover {
   background: pink;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+.banner {
+  background: #fff;
+  max-width: 100%;
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+.faq_title {
+  display: flex;
+  position: absolute;
+  left: 405px;
+  bottom: 16px;
+}
+.faq_title h1 {
+  font-size: 64px;
+  font-weight: bold;
 }
 
-body {
-  line-height: 1;
+h2 {
+  font-size: 32px;
+  padding-bottom: 36px;
+  background: #fff;
+  font-weight: bold;
+  padding-top: 40px;
 }
 
-ol, ul {
-  list-style: none;
+.content {
+  background: #fff;
 }
 
-blockquote, q {
-  quotes: none;
+.ask {
+  width: 920px;
+  height: auto;
+  margin: 0 auto;
+}
+.ask li h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.ask li p {
+  margin: 16px 0 40px 90px;
+  line-height: 24px;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.lastp {
+  padding-bottom: 300px;
 }
 
 .footer {
@@ -159,113 +142,68 @@ table {
   max-width: 100%;
   color: #fff;
 }
-
 .footer .footer_outside {
   width: 1080px;
   margin: 0 auto;
 }
-
 .footer .footer_outside .menu_icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .footer .footer_outside .menu_icon .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .footer .footer_outside .menu_icon .menu li {
   margin-top: 48px;
   margin-bottom: 37px;
 }
-
 .footer .footer_outside .menu_icon .menu a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
   margin-right: 48px;
 }
-
 .footer .footer_outside .menu_icon .icon {
   margin-top: 36px;
 }
-
 .footer .footer_outside .menu_icon .icon :nth-child(2) {
   padding: 0px 32px;
 }
-
 .footer .footer_outside .phone, .footer .footer_outside .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-bottom: 22px;
 }
-
 .footer .footer_outside .phone img, .footer .footer_outside .email img {
   margin-right: 12px;
 }
-
 .footer .footer_outside .phone p, .footer .footer_outside .email p {
   font-size: 36px;
 }
-
 .footer .footer_outside .line {
   width: 1080px;
   border: 1px solid white;
   margin-bottom: 24px;
 }
-
 .footer .footer_outside .copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-bottom: 28px;
 }
-
 .footer .footer_outside .copyright .copy {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .footer .footer_outside .copyright .copy img {
   margin-right: 38px;
 }
-
 .footer .footer_outside .copyright .term {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .footer .footer_outside .copyright .term li:nth-child(1) {
   padding-right: 62px;
 }
-/*# sourceMappingURL=all.css.map */
