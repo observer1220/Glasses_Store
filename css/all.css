@@ -43,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -60,100 +60,84 @@ body {
   width: 1920px;
   margin: 0 auto;
 }
-
 .container .row .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 108px;
   background: #aa0601;
 }
-
 .container .row .header .headerLogo {
   margin-top: 30px;
   margin-left: 88px;
 }
-
 .container .row .header .headerLogo a img {
   width: 80px;
   height: 48.57px;
 }
-
 .container .row .header .headerMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
 }
-
 .container .row .header .headerMenu a {
   width: 80px;
   height: 28px;
   margin-right: 40px;
   text-decoration: none;
 }
-
 .container .row .header .headerMenu a li {
   text-align: center;
   color: #ffffff;
   font-size: 20px;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+.banner {
+  background: #fff;
+  max-width: 100%;
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+.faq_title {
+  display: flex;
+  position: absolute;
+  left: 405px;
+  bottom: 16px;
+}
+.faq_title h1 {
+  font-size: 64px;
+  font-weight: bold;
 }
 
-body {
-  line-height: 1;
+h2 {
+  font-size: 32px;
+  padding-bottom: 36px;
+  background: #fff;
+  font-weight: bold;
+  padding-top: 40px;
 }
 
-ol, ul {
-  list-style: none;
+.content {
+  background: #fff;
 }
 
-blockquote, q {
-  quotes: none;
+.ask {
+  width: 920px;
+  height: auto;
+  margin: 0 auto;
+}
+.ask li h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.ask li p {
+  margin: 16px 0 40px 90px;
+  line-height: 24px;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.lastp {
+  padding-bottom: 300px;
 }
 
 .footer {
@@ -161,118 +145,184 @@ table {
   max-width: 100%;
   color: #fff;
 }
-
 .footer .footer_outside {
   width: 1080px;
   margin: 0 auto;
 }
-
 .footer .footer_outside .menu_icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .footer .footer_outside .menu_icon .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .footer .footer_outside .menu_icon .menu li {
   margin-top: 48px;
   margin-bottom: 37px;
 }
-
 .footer .footer_outside .menu_icon .menu a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
   margin-right: 48px;
 }
-
 .footer .footer_outside .menu_icon .icon {
   margin-top: 36px;
 }
-
 .footer .footer_outside .menu_icon .icon :nth-child(2) {
   padding: 0px 32px;
 }
-
 .footer .footer_outside .phone, .footer .footer_outside .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-bottom: 22px;
 }
-
 .footer .footer_outside .phone img, .footer .footer_outside .email img {
   margin-right: 12px;
 }
-
 .footer .footer_outside .phone p, .footer .footer_outside .email p {
   font-size: 36px;
 }
-
 .footer .footer_outside .line {
   width: 1080px;
   border: 1px solid white;
   margin-bottom: 24px;
 }
-
 .footer .footer_outside .copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-bottom: 28px;
 }
-
 .footer .footer_outside .copyright .copy {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .footer .footer_outside .copyright .copy img {
   margin-right: 38px;
 }
-
 .footer .footer_outside .copyright .term {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .footer .footer_outside .copyright .term li:nth-child(1) {
   padding-right: 62px;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content {
+  background: white;
+  font-size: 20px;
+}
+.content .productMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .productMenu a {
+  text-decoration: none;
+  color: black;
+}
+.content .productMenu a li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 363px;
+  height: 103px;
+  border: 1px solid #dcdcdc;
+}
+.content .productMenu a li img {
+  margin-right: 5px;
+}
+.content .productMenu a li h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+.content .banner {
+  display: flex;
+  justify-content: space-between;
+}
+.content .banner li img {
+  width: 945px;
+}
+.content .product {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 60px;
+}
+.content .product h3 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.content .product p {
+  font-size: 32px;
+}
+.content .product .productInfo {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1110px;
+}
+.content .product .productInfo li {
+  margin-top: 50px;
+}
+.content .product .productInfo li img {
+  width: 255px;
+  height: 164px;
+}
+.content .product .productInfo li p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.content .product .productInfo li p span {
+  color: #aa0601;
+}
+.content .product .productInfo li .box {
+  display: flex;
+  margin-top: 3px;
+  margin-bottom: 60px;
+}
+.content .product .productInfo li .box .box1 {
+  width: 24px;
+  height: 24px;
+  background: #5f312d;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.content .product .productInfo li .box .box2 {
+  width: 24px;
+  height: 24px;
+  background: #b75929;
+  border-radius: 4px;
+}
+.content .product .pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 156px;
+}
+.content .product .pagination a {
+  text-decoration: none;
+  border: 1px solid #555555;
+  padding: 15px;
+}
+.content .product .pagination a li {
+  color: #555555;
+}
+.content .product .pagination a:hover {
+  background: black;
+  color: white;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
 }
 
 .content {
@@ -332,6 +382,9 @@ body {
 
 .content .banner li img {
   width: 945px;
+  height: 309px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .content .product {
@@ -366,8 +419,10 @@ body {
 }
 
 .content .product .productInfo li img {
-  width: 255px;
-  height: 164px;
+  width: 350px;
+  height: 224px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .content .product .productInfo li p {
@@ -432,3 +487,85 @@ body {
   color: white;
 }
 /*# sourceMappingURL=all.css.map */
+.banner {
+  background: #fff;
+  max-width: 100%;
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
+}
+
+.store_title {
+  display: flex;
+  position: absolute;
+  left: 405px;
+  bottom: 16px;
+}
+.store_title h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.content {
+  width: 940px;
+  margin: 0 auto;
+  height: 819px;
+}
+
+.store {
+  display: flex;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 24px;
+}
+
+#choose {
+  margin-left: 22px;
+  font-size: 24px;
+  width: 324px;
+  height: 45px;
+  margin-bottom: 32px;
+  margin-top: 16px;
+  text-align: right;
+}
+
+.store_inf {
+  border: 1px solid #00000020;
+  box-sizing: border-box;
+  width: 445px;
+  height: 422px;
+}
+.store_inf h3 {
+  font-size: 24px;
+  margin-left: 24px;
+  padding: 12px 12px 12px 0px;
+}
+.store_inf ul {
+  border: 2px solid #00000020;
+  padding: 16px 30px 16px 24px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+.store_inf ul li {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+.store_inf img {
+  margin-right: 12px;
+}
+
+.store_map {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 92px;
+}

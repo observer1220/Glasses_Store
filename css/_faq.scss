@@ -1,0 +1,50 @@
+$size-32:32px;
+$bg-white:#fff;
+.banner{
+    background: $bg-white;
+    max-width: 100%;
+    position: relative;
+    img{
+    max-width: 100%;}
+}
+.faq_title{
+    // background: $bg-white;
+    display: flex;
+    position: absolute;
+    left: 405px;
+    bottom: 16px;
+    h1{
+        font-size: 64px;
+        font-weight: bold;
+    }
+}
+
+h2{
+    font-size: $size-32;
+    padding-bottom: 36px;
+    background: $bg-white;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.content{
+    background: $bg-white;
+}
+.ask{
+    width: 920px;
+    height: auto;
+    margin: 0 auto;
+    // background-color: #fff;
+    li{
+        h3{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        p{
+            margin: 16px 0 40px 90px;
+            line-height: 24px;
+        }
+    }
+}
+.lastp{
+    padding-bottom: 300px;
+}
