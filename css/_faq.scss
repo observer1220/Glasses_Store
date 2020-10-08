@@ -19,13 +19,7 @@ $bg-white:#fff;
     }
 }
 
-h2{
-    font-size: $size-32;
-    padding-bottom: 36px;
-    background: $bg-white;
-    font-weight: bold;
-    padding-top: 40px;
-}
+
 .content{
     background: $bg-white;
 }
@@ -34,6 +28,13 @@ h2{
     height: auto;
     margin: 0 auto;
     // background-color: #fff;
+    h2{
+        font-size: $size-32;
+        padding-bottom: 36px;
+        background: $bg-white;
+        font-weight: bold;
+        padding-top: 40px;
+    }
     li{
         h3{
             font-weight: bold;
